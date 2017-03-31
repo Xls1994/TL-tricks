@@ -101,7 +101,7 @@ TL可以和其他TF的包装器在一起使用，如果你使用其他的API编�
  * 将来应该会适配更多的高层API
 ## 13. 不同版本TF的适用
  * [RNN cell_fn](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html): 使用 [tf.contrib.rnn.{cell_fn}](https://www.tensorflow.org/api_docs/python/) for TF1.0+, 或者 [tf.nn.rnn_cell.{cell_fn}](https://www.tensorflow.org/versions/r0.11/api_docs/python/) for TF1.0-
- * [cross_entropy](http://tensorlayer.readthedocs.io/en/latest/modules/cost.html): TF1.0+必须定义一共独特的名字
+ * [cross_entropy](http://tensorlayer.readthedocs.io/en/latest/modules/cost.html): TF1.0+必须定义一个独特的名字
  
 ## 有用的链接
  * TL官方网站: [Docs](http://tensorlayer.readthedocs.io/en/latest/), [中文文档](http://tensorlayercn.readthedocs.io/zh/latest/), [Github](https://github.com/zsdonghao/tensorlayer)
