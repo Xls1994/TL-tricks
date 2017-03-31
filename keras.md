@@ -3,13 +3,13 @@ Keras是一个高度封装的深度学习框架，支持在theano和tensorflow�
 本文试图总结在keras使用中的技巧和问题。如果你发现了一些keras使用的陷阱或者技巧，请pull我们。在确认之后，我们会添加到这里。
 
 ## F&QA  
-1.Q：网上下载的代码为什么出现`import`错误？
+1.Q：网上下载的代码为什么出现`import`错误？<br>
 A：首先检查你的keras版本
 ```bash
   >>>import keras
   >>>keras.__version__
 ```
-如果你的版本是2.0以上，那么1.X版本的代码出现`import`问题时，很有可能是api函数已经改变位置，或者不再使用。请到Keras官网查看最新api
+如果你的版本是2.0以上，那么1.X版本的代码出现`import`问题时，很有可能是api函数已经改变位置，或者不再使用。请到Keras官网查看最新api<br>
 A2：同步你的后端，如果你使用的是2.0版本的Keras，后端选用Tensorflow。那么请更新Tensorflow到r1.0版本,这样保证函数的一致性。
 
 ##  常用链接
